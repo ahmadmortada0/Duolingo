@@ -1,5 +1,6 @@
 :root{
 --main-color:#58cc02;
+--color:#4b4b4b;
 }
 *{
     padding: 0%;
@@ -7,9 +8,13 @@
 }
 .flex{
     display:flex ;
+    flex-wrap: wrap;
 }
 header h3{
     color: var(--main-color);
+    font-weight: bolder;
+    font-size: 32px;
+    font-weight: 900;
 }
 header a{
     text-decoration: none;
@@ -23,10 +28,48 @@ header a{
 }
 header{
     justify-content: space-around;
-    margin-top: 30px;
+     margin:30px 200px 0px 200px;
 }
 .lang > p{
     font-weight: 100;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: gray;
+}
+.started-page{
+    justify-content:space-evenly;
+    padding: 15% 0;
+   
+}
+.started-page img{
+    width: 240px;
+    height: 240px;
+    border-radius: 77px;
+    margin-left: 50px;
+}
+.page-material{
+    text-align: center;
+}
+.page-material .page-material-buttons{
+   margin-top: 40px;
+}
+.page-material h2{
+    color:var(--color);
+    font-size: 2em; 
+    flex-wrap: wrap;
+    width: 80%;
+}
+.page-material button{
+    background-color: var(--main-color);
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 4px;
+    box-shadow:2px 2px gray;
+    margin: 5px;
+}
+.page-material-buttons > .account-button{
+    background-color: white;
+    color: #1cb0fc;
+    font-weight: 700;
 }
