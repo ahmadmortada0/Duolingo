@@ -1,0 +1,32 @@
+:root{
+--main-color:#58cc02;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.flex{
+    display:flex ;
+}
+header h3{
+    color: var(--main-color);
+}
+header a{
+    text-decoration: none;
+}
+.home-icon img{
+    height:40px;
+    width: 40px;
+}
+.home-icon{
+    width: 50%;
+}
+header{
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.lang > p{
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+}
