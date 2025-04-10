@@ -44,7 +44,7 @@ header{
     width: 240px;
     height: 240px;
     border-radius: 77px;
-    margin-left: 50px;
+   
 }
 .page-material{
     text-align: center;
@@ -72,4 +72,18 @@ header{
     background-color: white;
     color: #1cb0fc;
     font-weight: 700;
+}
+.lang-sec {
+    justify-content: space-evenly;
+    margin-left:100px;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.lang-sec p{
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--color);
+}
+.lang-sec img{
+    width: 30px;
 }
