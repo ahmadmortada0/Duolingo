@@ -98,13 +98,43 @@ header{
 .info-page p{
     margin-top: 20px;
     color: var(--color);
-    size: 16px;
-    width:80%;
+    size: 14px;
+    
 }
 .info-page img{
     height: 240px;
     width: 240px;
 }
-.info-card{
-    justify-content: space-between;
+.info-page{
+   max-width: 80%;
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+section{
+    background-color: rgb(56, 0, 109);
+    height: 60vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+section img {
+    width: 400px;
+    height: 400px;
+
+}
+section h1{
+    color: white;
+    font-size: 40px;
+}
+footer{
+    background-color: var(--main-color);
+    height: 10vh;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+footer h4{
+    font-size: 16px;
+    color:var(--color);
 }
