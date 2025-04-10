@@ -8,13 +8,13 @@
 }
 .flex{
     display:flex ;
-    flex-wrap: wrap;
 }
 header h3{
     color: var(--main-color);
     font-weight: bolder;
     font-size: 32px;
     font-weight: 900;
+    
 }
 header a{
     text-decoration: none;
@@ -28,7 +28,8 @@ header a{
 }
 header{
     justify-content: space-around;
-     margin:30px 200px 0px 200px;
+    margin:30px 200px 0px 200px;
+    
 }
 .lang > p{
     font-weight: 100;
@@ -64,8 +65,8 @@ header{
     font-size: 15px;
     padding: 10px 20px;
     width: 300px;
-    border-radius: 4px;
-    box-shadow:2px 2px gray;
+    border-radius: 10px;
+    box-shadow:2px 2px rgb(196, 196, 196);
     margin: 5px;
 }
 .page-material-buttons > .account-button{
@@ -86,4 +87,24 @@ header{
 }
 .lang-sec img{
     width: 30px;
+}
+.info-page{
+    height: 100vh;
+    margin: 10% 30%;
+}
+.info-page h1{
+    color: var(--main-color);
+}
+.info-page p{
+    margin-top: 20px;
+    color: var(--color);
+    size: 16px;
+    width:80%;
+}
+.info-page img{
+    height: 240px;
+    width: 240px;
+}
+.info-card{
+    justify-content: space-between;
 }
