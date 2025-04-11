@@ -37,6 +37,7 @@ header{
     color: gray;
 }
 .started-page{
+    height: 80%;
     width: 50%;
     justify-content: space-evenly;
     padding: 15% 0;
@@ -85,13 +86,15 @@ header{
     background-color:rgb(223, 222, 222);
 }
 .lang-sec {
+    height: 20%;
+    padding: 20px 0;
     justify-content: space-evenly;
-    margin-left:100px;
+    margin:0 10%;
     flex-wrap: wrap;
     width: 80%;
 }
 .lang-sec p{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     color: var(--color);
 }
@@ -127,6 +130,7 @@ section{
     width: 100%;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 section img {
     width: 400px;
@@ -136,6 +140,32 @@ section img {
 section h1{
     color: white;
     font-size: 40px;
+}
+ section mark{
+    background: linear-gradient(to right, #39FF14, #00BFFF, #1E90FF, #BA55D3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 2rem;
+}
+ 
+section button{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow:2px 2px gray;
+    margin: 5px;
+    border: 1px solid grey;
+}
+section button:hover{
+    background-color: rgb(197, 195, 195);
+    cursor: pointer;
+}
+aside{
+    margin-left: 30px;
 }
 footer{
     background-color: var(--main-color);
@@ -147,4 +177,23 @@ footer{
 footer h4{
     font-size: 16px;
     color:var(--color);
+}
+@media (max-width:900px) {
+    body{
+        padding: 0% 15%;
+    }
+    .lang{
+        display: none;
+    }
+    .flex{
+        display: block;
+        align-items: center;
+    }
+    .info-page{
+        height: max-content;
+    }
+    section {
+        height: max-content;
+    }
+  
 }
