@@ -37,13 +37,15 @@ header{
     color: gray;
 }
 .started-page{
-    justify-content:space-evenly;
+    width: 50%;
+    justify-content: space-evenly;
     padding: 15% 0;
+    margin:0 15% 0 25%;
    
 }
 .started-page img{
-    width: 240px;
-    height: 240px;
+    width: 340px;
+    height: 340px;
     border-radius: 77px;
    
 }
@@ -66,13 +68,21 @@ header{
     padding: 10px 20px;
     width: 300px;
     border-radius: 10px;
-    box-shadow:2px 2px rgb(196, 196, 196);
+    box-shadow:2px 2px gray;
     margin: 5px;
+    border: 1px solid grey;
+}
+.page-material-buttons :hover{
+    background-color: #76ff0e;
+    cursor: pointer;
 }
 .page-material-buttons > .account-button{
     background-color: white;
     color: #1cb0fc;
     font-weight: 700;
+}
+.account-button:hover{
+    background-color:rgb(223, 222, 222);
 }
 .lang-sec {
     justify-content: space-evenly;
