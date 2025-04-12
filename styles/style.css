@@ -16,6 +16,40 @@ header h3{
     font-weight: 900;
     
 }
+.dropbtn {
+    color: var(--color);
+    padding: 16px;
+    font-size: 16px;
+    border: none ;
+    background-color: white;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+   
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+  
 header a{
     text-decoration: none;
 }
@@ -126,7 +160,6 @@ header{
 .reverse{
     flex-direction: row-reverse;
 }
-
 section{
     background-color: rgb(56, 0, 109);
     height: 60vh;
@@ -182,7 +215,7 @@ footer p{
     font-size: 24px;
     font-weight: 900;
 }
-.container{
+.footer-container{
     gap: 60px;
     padding-bottom: 30px;
     margin: 0 20%;
