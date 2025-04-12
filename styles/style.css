@@ -17,6 +17,7 @@ header h3{
     
 }
 header a{
+    position: fixed;
     text-decoration: none;
 }
 .home-icon img{
@@ -168,15 +169,41 @@ aside{
     margin-left: 30px;
 }
 footer{
+    padding-top: 120px;
     background-color: var(--main-color);
     height:fit-content;
     width: 100%;
-    justify-content: center;
-    text-align: center;
+    
 }
-footer h4{
-    font-size: 16px;
-    color:var(--color);
+footer p{
+    color: #ffffffc7;
+    font-size: 24px;
+    font-weight: 900;
+}
+.container{
+    gap: 60px;
+    padding-bottom: 30px;
+    margin: 0 20%;
+}
+footer ul{
+    list-style: none;
+}
+footer li{
+    padding-top: 10px;
+    color:#ffffff8c;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+}
+.footer-lang{
+    padding: 0% 20%;
+}
+.footer-lang span{
+    color:#ffffff8c;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+   margin-right: 30px;
 }
 @media (max-width:900px) {
     body{
