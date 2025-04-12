@@ -17,14 +17,15 @@ header h3{
     
 }
 header a{
-    position: fixed;
     text-decoration: none;
 }
 .home-icon img{
+    color: #1E90FF;
     height:40px;
     width: 40px;
 }
 .home-icon{
+    position: fixed;
     width: 50%;
 }
 header{
@@ -222,5 +223,11 @@ footer li{
     section {
         height: max-content;
     }
-  
+  .home-icon{
+    position: relative;
+  }
+  .lang-sec{display: none;}
+  .footer-lang{
+    display: none;
+  }
 }
