@@ -25,7 +25,6 @@ header a{
     width: 40px;
 }
 .home-icon{
-    position: fixed;
     width: 50%;
 }
 header{
@@ -116,6 +115,7 @@ header{
     size: 14px;
     
 }
+
 .info-page img{
     height: 240px;
     width: 240px;
@@ -126,6 +126,7 @@ header{
 .reverse{
     flex-direction: row-reverse;
 }
+
 section{
     background-color: rgb(56, 0, 109);
     height: 60vh;
